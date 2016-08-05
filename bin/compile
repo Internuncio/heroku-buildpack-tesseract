@@ -31,7 +31,7 @@ then
 fi
 
 echo "Building runtime dependencies for Tesseract-OCR"
-apt-get install libleptonica-dev libtesseract-dev
+sudo apt-get install libleptonica-dev libtesseract-dev
 
 echo "Building runtime environment for Tesseract-OCR"
 mkdir -p $BUILD_DIR/.profile.d
